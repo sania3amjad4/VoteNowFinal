@@ -26,7 +26,7 @@ export const protect = async (req, res, next) => {
   }
 };
 
-// Protect admin routes
+// Protect admin routess
 export const adminProtect = (req, res, next) => {
   const { authorization } = req.headers;
   
